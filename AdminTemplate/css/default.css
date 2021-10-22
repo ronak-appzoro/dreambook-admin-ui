@@ -250,6 +250,7 @@ button[disabled], html input[disabled] {
     padding: 0px 15px;
     line-height: 40px;
     letter-spacing: 1px;
+    min-width: 110px;
 }
 .btn.btn-primary:hover{
     color: #fff;
@@ -274,6 +275,7 @@ button[disabled], html input[disabled] {
     padding: 0px 15px;
     line-height: 40px;
     letter-spacing: 1px;
+    min-width: 110px;
 }
 .btn.btn-outline-secondary:hover{
     color: #fff;
@@ -286,7 +288,7 @@ button[disabled], html input[disabled] {
     border-color: #aaaaaa !important;
 }
 
-.btn.btn-gray-outline{
+/*.btn.btn-gray-outline{
     padding: 6px 15px;
     text-transform: uppercase;
     border-color: #727272;
@@ -294,12 +296,13 @@ button[disabled], html input[disabled] {
     font-weight: 500;
     color: #727272;
     background: #fff;
+    min-width: 120px;
 }
 .btn.btn-gray-outline:hover{
     background: #727272;
     color: #fff;
     border-color: #727272;
-}
+}*/
 .btn.btn-outline-primary{
     color: #182e55;
     border-color: #182e55;
@@ -314,8 +317,17 @@ button[disabled], html input[disabled] {
     background-color: #182e55  !important;
     border-color: #182e55 !important;
 }
-
-
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #171717;
+    border-color: #171717;
+}
+.btn-secondary.focus, 
+.btn-secondary:focus{
+    color: #fff;
+    background-color: #171717;
+    border-color: #171717;
+}
 
 label{
     font-weight:normal; 
