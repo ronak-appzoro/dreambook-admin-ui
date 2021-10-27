@@ -1098,3 +1098,25 @@
 .view-text-column .view-text-info h4 span {
     color: #858585;
 }
+
+.question-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.question-list ul li,
+.question-list ol li{
+    position: relative;
+    padding-bottom: 15px;
+}
+.question-list ul li:last-child,
+.question-list ol li:last-child{
+    padding: 0;
+}
+
+.question-list ol li {
+    font-size: 18px;
+}
+.question-list ol li p{
+    font-size: 14px;
+}
