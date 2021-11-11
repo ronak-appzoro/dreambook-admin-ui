@@ -46,7 +46,7 @@
 @media (max-width:1024px)  {
     .dash_header{margin-left: 0px; background: #171c73; height: auto;  position: relative; z-index: initial}
     
-    .dash_header .logo-container{height: 60px; left: 0;  background: #fff; position: fixed;  right: 0;  top: 0; z-index: 9; box-shadow: 0px 0px 5px #ccc;}
+    .dash_header .logo-container{height: 60px; left: 0;  background: #fff; position: fixed;  right: 0;  top: 0; z-index: 1025; box-shadow: 0px 0px 5px #ccc;}
     .dash_header .head_logo{ display: block;}
     .sidebar-left{padding-top: 60px; padding-bottom: 50px; left:-100%;  width: 100%;}
     /* .head_logo img{width: 80px;} */
