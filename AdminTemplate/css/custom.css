@@ -1021,6 +1021,7 @@
     height: 40px;
     border-radius: 100%;
     text-decoration: none;
+    padding: 0;
 }
 .cat-check-list ul{
     margin: 0;

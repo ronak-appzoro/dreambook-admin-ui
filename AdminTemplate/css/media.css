@@ -88,7 +88,10 @@
    .page-header h2 .heading_icon{width: 24px; height: 24px;}
    .page-header-right{width: 100%; padding: 10px 0 0 0}
   .radio-list ul li .control{font-size: 14px;}  
-    
+   .search-category{width: 100%;}
+   .search-category .form-group{display: block;}
+   .search-category .form-group label{padding: 0; margin-bottom: 5px;}
+   .search-category .form-group .form-control{width: 100%;}
 }
 
 @media (max-width:576px) {
