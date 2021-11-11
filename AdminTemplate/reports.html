@@ -44,7 +44,7 @@
                                     <span class="logout_icon"><img alt="" src="images/logout-menu-icon.png"></span>
                                     <!-- <div class="profile-info" href="javascript:;"> 
                                         <span class="name">Log Out</span>
-                                    </div> -->
+                                        </div> -->
                                 </a>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                                                 <a href="manage-feature-align.html" class="dropdown-item">Align</a>
                                             </li>
                                             <li>
-                                                <a href="manage-feature-dream.html" class="dropdown-item active">Dream</a>
+                                                <a href="manage-feature-dream.html" class="dropdown-item">Dream</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -114,7 +114,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="reports.html" class="nav-link">
+                                        <a href="reports.html" class="nav-link active">
                                             <span class="nav_icon"><img alt="" src="images/reports_white.png"></span>
                                             <span class="name">Reports </span>
                                         </a>
@@ -146,17 +146,17 @@
                             <div class="page_title">
                                 <h2>
                                     <span class="heading_icon">
-                                        <img alt="" src="images/manage_feature_black.png">
+                                        <img alt="" src="images/reports_black.png">
                                     </span> 
-                                    Manage Features
+                                    Reports
                                 </h2>
                             </div>                            
                             <div class="page-header-right">
                                 <!-- RIGHT SIDE BREADCRUMB -->
                                 <nav class="page-breadcrumb" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#">Manage Features</a></li>
-                                        <li class="breadcrumb-item active">Dream</li>
+                                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                        <li class="breadcrumb-item active">Reports</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -165,80 +165,89 @@
                             <div class="panel-section">
                                 <div class="panel">
                                     <div class="panel-heading">
-                                        <h3 class="panel-title">Dream</h3>
+                                        <h3 class="panel-title">Reports</h3>
                                     </div>
                                     <form>
-                                        <div class="panel-body">
-                                            <div class="search-type d-flex align-items-center justify-content-between">
-                                                <div class="search-category">
-                                                    <div class="form-group">
-                                                        <label>Type</label>
-                                                        <select class="form-control">
-                                                            <option>Dream</option>
-                                                            <option>Align</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="action-category ml-auto">
-                                                    <a href="javascript:;" class="btn btn-secondary circle-icon"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                                </div> -->
-                                            </div>
+                                        <div class="panel-body">                                            
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="cat-check-list">
-                                                        <h3 class="mb-3">Sub Category</h3>
-                                                        <ul>
+                                                    <h5>Date Range</h5>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="form-group">
+                                                        <label>From</label>
+                                                        <div class="calendar-input">
+                                                            <input type="text" placeholder="" class="form-control">
+                                                            <button class="btn calendar-icon">
+                                                                <i class="fa fa-calendar"></i>
+                                                            </button>
+                                                        </div>                               
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="form-group">
+                                                        <label>To</label>
+                                                        <div class="calendar-input">
+                                                            <input type="text" placeholder="" class="form-control">
+                                                            <button class="btn calendar-icon">
+                                                                <i class="fa fa-calendar"></i>
+                                                            </button>
+                                                        </div>                               
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="radio-list">
+                                                        <ul class="radio-two-col">
                                                             <li>
                                                                 <div class="control_inline">
-                                                                    <label class="control control--checkbox"> 
-                                                                        <strong class="check-heading">Connect</strong>
-                                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                                        <input type="checkbox" className="form-check-input" />
+                                                                    <label class="control control--radio"> Subscribers Report
+                                                                        <input type="radio" className="form-check-radio" />
                                                                         <div class="control__indicator"></div>
                                                                     </label>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="control_inline">
-                                                                    <label class="control control--checkbox"> 
-                                                                        <strong class="check-heading">Dream</strong>
-                                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                                                        <input type="checkbox" className="form-check-input" />
+                                                                    <label class="control control--radio"> User Report
+                                                                        <input type="radio" className="form-check-radio" />
                                                                         <div class="control__indicator"></div>
                                                                     </label>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="control_inline">
-                                                                    <label class="control control--checkbox"> 
-                                                                        <strong class="check-heading">Craft</strong>
-                                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                                        <input type="checkbox" className="form-check-input" />
+                                                                    <label class="control control--radio"> Project Report
+                                                                        <input type="radio" className="form-check-radio" />
                                                                         <div class="control__indicator"></div>
                                                                     </label>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="control_inline">
-                                                                    <label class="control control--checkbox"> 
-                                                                        <strong class="check-heading">Ritualize</strong>
-                                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                                                        <input type="checkbox" className="form-check-input" />
+                                                                    <label class="control control--radio"> Sample Report 1
+                                                                        <input type="radio" className="form-check-radio" />
                                                                         <div class="control__indicator"></div>
                                                                     </label>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="control_inline">
-                                                                    <label class="control control--checkbox"> 
-                                                                        <strong class="check-heading">Theme of the year</strong>
-                                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                                        <input type="checkbox" className="form-check-input" />
+                                                                    <label class="control control--radio"> Sample Report 2
+                                                                        <input type="radio" className="form-check-radio" />
                                                                         <div class="control__indicator"></div>
                                                                     </label>
                                                                 </div>
                                                             </li>
-                                                           
+                                                            <li>
+                                                                <div class="control_inline">
+                                                                    <label class="control control--radio"> Sample Report 3
+                                                                        <input type="radio" className="form-check-radio" />
+                                                                        <div class="control__indicator"></div>
+                                                                    </label>
+                                                                </div>
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -246,14 +255,14 @@
                                         </div>
                                         <div class="panel-footer text-right">
                                             <div class="action-panel">
-                                                <button class="btn btn-primary">Save</button>
+                                                <button class="btn btn-primary"><i class="fa fa-file-excel-o mr-1" aria-hidden="true"></i>EXCEL</button>
+                                                <button class="btn btn-primary"><i class="fa fa-file-pdf-o mr-1" aria-hidden="true"></i>PDF</button>
                                             </div>
                                         </div>
                                     </form>                                    
-                                </div>
+                                </div>                                
 
                             </div>
-
                         </div>
                     </section>
                 </div>

@@ -238,6 +238,7 @@
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
     -webkit-box-shadow:  0px 1px 4px rgba(0,0,0,0.25);
@@ -1108,15 +1109,49 @@
 .question-list ol li{
     position: relative;
     padding-bottom: 15px;
+    padding-right: 40px;
 }
 .question-list ul li:last-child,
 .question-list ol li:last-child{
-    padding: 0;
+    padding-bottom: 0;
 }
 
 .question-list ol li {
-    font-size: 18px;
+    font-size: 18px;    
 }
 .question-list ol li p{
     font-size: 14px;
+}
+
+.question-list-action{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.question-list-action .circle-icon{
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+}
+.radio-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.radio-list ul li {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+.radio-list ul li .control{
+    font-size: 18px;
+    margin: 0;
+}
+.radio-list .radio-two-col{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.radio-list .radio-two-col li{
+    width: 40%;
+    padding: 0 10px;
 }

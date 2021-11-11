@@ -40,6 +40,8 @@
     }
     .login_form{padding: 30px;}
     .card_widgit [class*="col-"] {-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; margin-bottom: 20px;}
+
+    .radio-list .radio-two-col li{width: 50%;}
 }
 @media (max-width:1024px)  {
     .dash_header{margin-left: 0px; background: #171c73; height: auto;  position: relative; z-index: initial}
@@ -75,12 +77,17 @@
     .login_form_inner{margin-bottom: 30px}
     .login-copy{position: relative; bottom: 0; text-align: left; padding: 0}
     .login_main h1{font-size: 30px;  margin-bottom: 20px;}
+    .radio-list .radio-two-col li{width: 100%; margin-bottom: 10px;}
+    .radio-list ul li .control{font-size: 16px;}
 }
 
 
 @media (max-width:767px) {
-   
-
+   .page-header{padding: 10px 15px;}
+   .page-header .page_title{padding: 0; width: 100%; flex-wrap: wrap;}
+   .page-header h2 .heading_icon{width: 24px; height: 24px;}
+   .page-header-right{width: 100%; padding: 10px 0 0 0}
+  .radio-list ul li .control{font-size: 14px;}  
     
 }
 
@@ -91,6 +98,8 @@
 
 @media (max-width:480px) {
     .login_rlogo .login_logo{padding: 20px}
+    .panel-footer .action-panel .btn{width: 100%; margin: 0}
+    .panel-footer .action-panel .btn + .btn{margin-top: 5px;}
 }   
 
 @media (max-width:320px) {

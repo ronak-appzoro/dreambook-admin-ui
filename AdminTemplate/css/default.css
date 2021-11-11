@@ -453,7 +453,7 @@ figure{
     color: #172d53;
 }
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
 }
 .form-control {
@@ -505,7 +505,21 @@ select.form-control:not([size]):not([multiple]){
 .form-control::placeholder {
   color: #999;
   opacity: 1;
-}    
+}
+.calendar-input{
+    position: relative;
+}
+.calendar-input .form-control{
+    padding-right: 40px;
+}
+.calendar-input .calendar-icon{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    padding: 0.375rem  0.75rem;
+    border:none;
+    background: none;
+}
 .btn_control{
     height: 40px;
     line-height: 32px;
