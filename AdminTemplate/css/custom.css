@@ -934,17 +934,6 @@
     color: #fff;
 }
 
-.record-page {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.record-page .form-control {
-    width: 90px;
-}
-.record-page p{
-    margin: 0 0 0 10px;
-}
 
 .user-panel {
     display: flex;

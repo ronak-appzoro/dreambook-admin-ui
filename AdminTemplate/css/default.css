@@ -576,26 +576,47 @@ select.form-control:not([size]):not([multiple]){
 }
 
 /* Pagination */
+.table-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+}
+.table-actions .record-page p{
+    margin: 0 10px 0 0px
+}
 .paging .pagination {
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 .page-item.disabled .page-link {
     color: #969696;
     border-color: #969696;
 }
 .page-link {
-    color: #325d79;
+    color: #172d53;
     border-color:#969696;
 }
 .page-link:hover{
     color: #fff;
-    border-color:#325d79;
-    background: #325d79;
+    border-color:#172d53;
+    background: #172d53;
 }
 .page-item.active .page-link {
     color: #fff;
-    border-color:#325d79;
-    background: #325d79;
+    border-color:#172d53;
+    background: #172d53;
+}
+
+.record-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.record-page .form-control {
+    width: 90px;
+}
+.record-page p{
+    margin: 0 0 0 10px;
 }
 /*======Default Css End Here======*/
 
