@@ -69,7 +69,13 @@
 }
 
 @media (max-width: 991px) {
-    
+    h1, .h1{font-size: 22px;}
+    h2, .h2{font-size: 20px;}
+    h3, .h3{font-size: 18px;}
+    h4, .h4{font-size: 16px;}
+    h5, .h5{font-size: 15px;}
+    h6, .h6{font-size: 15px;}
+    .panel-title{font-size: 18px;}
     .login_main {overflow: visible;}
     .login_rlogo{height: auto; padding: 50px 0;}
     .login_rlogo_inner{transform: none; -moz-transform:none; -o-transform:none; -webkit-transform:none; position: relative; top: 0; padding: 0px 15px;}
@@ -79,30 +85,51 @@
     .login_main h1{font-size: 30px;  margin-bottom: 20px;}
     .radio-list .radio-two-col li{width: 100%; margin-bottom: 10px;}
     .radio-list ul li .control{font-size: 16px;}
+    .question-list h4{font-size: 15px;}
+    .question-list ol li{font-size: 15px;}
+    .question-list ol li p{font-size: 13px;}
 }
 
 
 @media (max-width:767px) {
+    body{font-size: 13px}
    .page-header{padding: 10px 15px;}
    .page-header .page_title{padding: 0; width: 100%; flex-wrap: wrap;}
    .page-header h2 .heading_icon{width: 24px; height: 24px;}
    .page-header-right{width: 100%; padding: 10px 0 0 0}
-  .radio-list ul li .control{font-size: 14px;}  
+   .title-heading .title{flex-wrap: wrap; width: 100%;}
+   .title-heading .panel-right-col{flex-wrap: wrap; width: 100%; margin-top: 10px;}
+   .radio-list ul li .control{font-size: 14px;}  
    .search-category{width: 100%;}
    .search-category .form-group{display: block;}
    .search-category .form-group label{padding: 0; margin-bottom: 5px;}
    .search-category .form-group .form-control{width: 100%;}
+   .view-text-column{padding: 20px;}
+   .view-text-info{margin-top: 20px}
+   .view-text-column .small-file-text{position: relative; top: 0; right: 0; text-align:left;}
+   .search-form{width: 100%;}
+   .search-form .form-group{width: 100%}
+   .search-form .form-group .form-control{padding-right: 50px;}
+   .search-form .search-btn{font-size: 0}
+   .search-form .search-btn i{font-size: 16px; margin: 0 !important;}
+
+   .record-page{justify-content: center; width: 100%; margin: 15px 0px 0 0;}
+   .paging{width: 100%;}
+   .paging .pagination{width: 100%; align-items:center; justify-content: center; margin: 15px 0px}
 }
 
 @media (max-width:576px) {
    .card_widgit [class*="col-"] {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; margin-bottom: 15px;}
-
+   .user-detail-list ul li{width: 100%}
+   .user-panel .user-pic{margin: 0 auto 15px}
+   .user-panel .user-info{padding: 0; width: 100%; text-align: center;}
 }
 
 @media (max-width:480px) {
     .login_rlogo .login_logo{padding: 20px}
     .panel-footer .action-panel .btn{width: 100%; margin: 0}
     .panel-footer .action-panel .btn + .btn{margin-top: 5px;}
+
 }   
 
 @media (max-width:320px) {
