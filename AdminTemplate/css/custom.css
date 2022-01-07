@@ -1147,3 +1147,58 @@
     width: 40%;
     padding: 0 10px;
 }
+
+/*Quote List Start Here*/
+
+.quote-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.quote-list ul li,
+.quote-list ol li{
+    position: relative;
+    padding-bottom: 15px;
+    padding-right: 70px;
+}
+.quote-list ul li:last-child,
+.quote-list ol li:last-child{
+    padding-bottom: 0;
+}
+.quote-list ol li {
+    font-size: 18px;    
+}
+.quote-list ol li p{
+    font-size: 14px;
+}
+.action-quote{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.action-quote a{
+    opacity: 0.7;
+    background: #fff;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: 0 0 3px #ddd;
+    font-size: 14px;
+}
+.action-quote a:last-child{
+    margin-right: 0;
+}
+.action-quote a:hover{
+    opacity: 1;
+}
+.edit-review{
+    margin-bottom: 15px;
+}
+.edit-review textarea.form-control {
+    height: 60px;
+}
+/*Quote List End Here*/
