@@ -1201,4 +1201,11 @@
 .edit-review textarea.form-control {
     height: 60px;
 }
+.small-text{
+    line-height: 14px;
+    margin: 5px 0;
+}
+.small-text small{
+    font-size: 12px;
+}
 /*Quote List End Here*/

@@ -194,8 +194,8 @@
                                 <div class="panel">
                                     <div class="panel-heading d-flex flex-wrap align-items-center">
                                         <h3 class="panel-title">Quotes</h3>
-                                        <div class="action-category d-flex flex-wrap ml-auto">
-                                            <a href="javascript:;" class="btn btn-secondary circle-icon" title="Add">
+                                        <div class="action-category d-flex flex-wrap ml-auto">                                            
+                                            <a href="javascript:;" class="btn btn-secondary circle-icon" title="Add" data-toggle="modal" data-target="#addQuoteModal">
                                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                             </a>
                                             <!-- <a href="javascript:;" class="btn btn-danger circle-icon ml-1" title="Edit">
@@ -211,10 +211,14 @@
                                                     <div class="edit-review">
                                                         <div class="form-group">
                                                             <textarea class="form-control">Your desire to change must be greater than your desire to stay the same</textarea>
+                                                            <div class="small-text text-right">
+                                                                <small>Max length 250 charector</small>
+                                                            </div>                   
                                                         </div>
                                                         <div class="text-right">
+
                                                             <button class="btn btn-primary">Save</button>
-                                                        <div>
+                                                        </div>
                                                     </div>
                                                     <div class="action-quote d-flex flex-wrap">
                                                         <a href="javascript:;" title="Edit">
@@ -398,6 +402,32 @@
                     </form>
                 </div>
             </div>
+        </div>
+
+
+        <!-- Add Quotes Modal -->
+        <div class="modal fade notify-modal" id="addQuoteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Quotes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <form>
+                  <div class="modal-body">
+                    <div class="form-group mb-0">
+                        <textarea class="form-control">Add Quotes Here</textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+              </form>
+            </div>
+          </div>
         </div>
 
         <!-- custom first then jQuery, then Popper.js, then Bootstrap JS -->
